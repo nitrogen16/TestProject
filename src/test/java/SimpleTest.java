@@ -12,4 +12,9 @@ public class SimpleTest {
         System.out.println("ChangesRepo greeting!!!");
     }
 
+    @Test
+    public void method3() throws Exception {
+        throw new Exception();
+    }
+
 }
